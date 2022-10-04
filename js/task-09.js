@@ -12,5 +12,4 @@ const changeColor = ()=> {
 colorSpan.textContent = myBody.style.backgroundColor=getRandomHexColor();
 }
 
-buttonClick.addEventListener("click", changeColor);
-
+buttonClick = document.addEventListener("click", changeColor)
