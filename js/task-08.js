@@ -12,8 +12,10 @@
 
     if (email.value === "" || password.value === "") {
         return alert("uzupełnij to pole!");
+    } else {
+        const message = {Email: email.value, Passwrd: password.value};
+        console.log(message);
     }
 
-    console.log(`Email: ${email.value}, Passwrd:${password.value}`);
     event.currentTarget.reset();
- }
+ } 
